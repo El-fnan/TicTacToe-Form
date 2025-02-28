@@ -80,7 +80,7 @@
             button1.Enabled = false;
             button1.Font = new Font("Segoe UI Black", 22.2F, FontStyle.Bold, GraphicsUnit.Point);
             button1.ForeColor = SystemColors.ActiveCaptionText;
-            button1.Location = new Point(183, 34);
+            button1.Location = new Point(183, 31);
             button1.Name = "button1";
             button1.Size = new Size(160, 95);
             button1.TabIndex = 0;
@@ -94,7 +94,7 @@
             button2.Cursor = Cursors.Help;
             button2.Enabled = false;
             button2.Font = new Font("Segoe UI Black", 22.2F, FontStyle.Bold, GraphicsUnit.Point);
-            button2.Location = new Point(342, 34);
+            button2.Location = new Point(342, 31);
             button2.Name = "button2";
             button2.Size = new Size(160, 95);
             button2.TabIndex = 1;
@@ -108,7 +108,7 @@
             button3.Cursor = Cursors.Help;
             button3.Enabled = false;
             button3.Font = new Font("Segoe UI Black", 22.2F, FontStyle.Bold, GraphicsUnit.Point);
-            button3.Location = new Point(502, 34);
+            button3.Location = new Point(502, 31);
             button3.Name = "button3";
             button3.Size = new Size(160, 95);
             button3.TabIndex = 2;
@@ -122,7 +122,7 @@
             button4.Cursor = Cursors.Help;
             button4.Enabled = false;
             button4.Font = new Font("Segoe UI Black", 22.2F, FontStyle.Bold, GraphicsUnit.Point);
-            button4.Location = new Point(183, 129);
+            button4.Location = new Point(183, 126);
             button4.Name = "button4";
             button4.Size = new Size(160, 95);
             button4.TabIndex = 3;
@@ -136,7 +136,7 @@
             button5.Cursor = Cursors.Help;
             button5.Enabled = false;
             button5.Font = new Font("Segoe UI Black", 22.2F, FontStyle.Bold, GraphicsUnit.Point);
-            button5.Location = new Point(342, 129);
+            button5.Location = new Point(342, 126);
             button5.Name = "button5";
             button5.Size = new Size(160, 95);
             button5.TabIndex = 4;
@@ -150,7 +150,7 @@
             button6.Cursor = Cursors.Help;
             button6.Enabled = false;
             button6.Font = new Font("Segoe UI Black", 22.2F, FontStyle.Bold, GraphicsUnit.Point);
-            button6.Location = new Point(502, 129);
+            button6.Location = new Point(502, 126);
             button6.Name = "button6";
             button6.Size = new Size(160, 95);
             button6.TabIndex = 5;
@@ -164,7 +164,7 @@
             button7.Cursor = Cursors.Help;
             button7.Enabled = false;
             button7.Font = new Font("Segoe UI Black", 22.2F, FontStyle.Bold, GraphicsUnit.Point);
-            button7.Location = new Point(183, 224);
+            button7.Location = new Point(183, 221);
             button7.Name = "button7";
             button7.Size = new Size(160, 95);
             button7.TabIndex = 6;
@@ -178,7 +178,7 @@
             button8.Cursor = Cursors.Help;
             button8.Enabled = false;
             button8.Font = new Font("Segoe UI Black", 22.2F, FontStyle.Bold, GraphicsUnit.Point);
-            button8.Location = new Point(342, 224);
+            button8.Location = new Point(342, 221);
             button8.Name = "button8";
             button8.Size = new Size(160, 95);
             button8.TabIndex = 7;
@@ -192,7 +192,7 @@
             button9.Cursor = Cursors.Help;
             button9.Enabled = false;
             button9.Font = new Font("Segoe UI Black", 22.2F, FontStyle.Bold, GraphicsUnit.Point);
-            button9.Location = new Point(502, 224);
+            button9.Location = new Point(502, 221);
             button9.Name = "button9";
             button9.Size = new Size(160, 95);
             button9.TabIndex = 8;
@@ -204,7 +204,7 @@
             ply_1.Anchor = AnchorStyles.None;
             ply_1.AutoSize = true;
             ply_1.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
-            ply_1.Location = new Point(205, 335);
+            ply_1.Location = new Point(205, 332);
             ply_1.Name = "ply_1";
             ply_1.Size = new Size(99, 31);
             ply_1.TabIndex = 9;
@@ -215,7 +215,7 @@
             ply_2.Anchor = AnchorStyles.None;
             ply_2.AutoSize = true;
             ply_2.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
-            ply_2.Location = new Point(538, 335);
+            ply_2.Location = new Point(538, 332);
             ply_2.Name = "ply_2";
             ply_2.Size = new Size(99, 31);
             ply_2.TabIndex = 10;
@@ -255,7 +255,7 @@
             choosing.Controls.Add(label1);
             choosing.Controls.Add(O);
             choosing.Controls.Add(X);
-            choosing.Location = new Point(345, 338);
+            choosing.Location = new Point(345, 335);
             choosing.Name = "choosing";
             choosing.Size = new Size(152, 63);
             choosing.TabIndex = 15;
@@ -277,7 +277,7 @@
             ply1Chos.BackColor = Color.FromArgb(200, 255, 255);
             ply1Chos.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
             ply1Chos.ForeColor = Color.Red;
-            ply1Chos.Location = new Point(237, 370);
+            ply1Chos.Location = new Point(237, 367);
             ply1Chos.Name = "ply1Chos";
             ply1Chos.Size = new Size(0, 31);
             ply1Chos.TabIndex = 16;
@@ -289,7 +289,7 @@
             ply2Chos.BackColor = Color.FromArgb(200, 255, 255);
             ply2Chos.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
             ply2Chos.ForeColor = Color.Blue;
-            ply2Chos.Location = new Point(568, 370);
+            ply2Chos.Location = new Point(568, 367);
             ply2Chos.Name = "ply2Chos";
             ply2Chos.Size = new Size(0, 31);
             ply2Chos.TabIndex = 17;
@@ -312,7 +312,7 @@
             Rply.Cursor = Cursors.Hand;
             Rply.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point);
             Rply.ForeColor = Color.FromArgb(255, 255, 192);
-            Rply.Location = new Point(324, 405);
+            Rply.Location = new Point(324, 402);
             Rply.Name = "Rply";
             Rply.Size = new Size(198, 32);
             Rply.TabIndex = 21;
@@ -327,7 +327,7 @@
             summary.AutoSize = true;
             summary.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point);
             summary.ForeColor = Color.DarkGreen;
-            summary.Location = new Point(29, 139);
+            summary.Location = new Point(29, 136);
             summary.Name = "summary";
             summary.Size = new Size(0, 20);
             summary.TabIndex = 24;
@@ -337,7 +337,7 @@
             turn_panel.Anchor = AnchorStyles.None;
             turn_panel.Controls.Add(label5);
             turn_panel.Controls.Add(turn);
-            turn_panel.Location = new Point(715, 34);
+            turn_panel.Location = new Point(715, 31);
             turn_panel.Name = "turn_panel";
             turn_panel.Size = new Size(220, 86);
             turn_panel.TabIndex = 25;
@@ -359,7 +359,7 @@
             player1_panel.Anchor = AnchorStyles.None;
             player1_panel.Controls.Add(ply1_scor);
             player1_panel.Controls.Add(label8);
-            player1_panel.Location = new Point(715, 129);
+            player1_panel.Location = new Point(715, 126);
             player1_panel.Name = "player1_panel";
             player1_panel.Size = new Size(103, 91);
             player1_panel.TabIndex = 26;
@@ -393,7 +393,7 @@
             player2_panel.Anchor = AnchorStyles.None;
             player2_panel.Controls.Add(ply2_scor);
             player2_panel.Controls.Add(label9);
-            player2_panel.Location = new Point(832, 129);
+            player2_panel.Location = new Point(832, 126);
             player2_panel.Name = "player2_panel";
             player2_panel.Size = new Size(103, 91);
             player2_panel.TabIndex = 27;
@@ -427,7 +427,7 @@
             draws_panel.Anchor = AnchorStyles.None;
             draws_panel.Controls.Add(label10);
             draws_panel.Controls.Add(drw_scor);
-            draws_panel.Location = new Point(715, 229);
+            draws_panel.Location = new Point(715, 226);
             draws_panel.Name = "draws_panel";
             draws_panel.Size = new Size(220, 86);
             draws_panel.TabIndex = 28;
@@ -463,7 +463,7 @@
             reset.Cursor = Cursors.Hand;
             reset.Font = new Font("Segoe UI", 9F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
             reset.ForeColor = Color.Firebrick;
-            reset.Location = new Point(715, 341);
+            reset.Location = new Point(715, 338);
             reset.Name = "reset";
             reset.Size = new Size(219, 36);
             reset.TabIndex = 29;
@@ -476,7 +476,7 @@
             developer.Anchor = AnchorStyles.None;
             developer.AutoSize = true;
             developer.Font = new Font("Segoe UI", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
-            developer.Location = new Point(17, 413);
+            developer.Location = new Point(17, 410);
             developer.Name = "developer";
             developer.Size = new Size(199, 56);
             developer.TabIndex = 30;
@@ -492,7 +492,7 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(200, 255, 255);
-            ClientSize = new Size(974, 449);
+            ClientSize = new Size(974, 442);
             Controls.Add(button6);
             Controls.Add(button8);
             Controls.Add(button9);

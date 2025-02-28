@@ -47,6 +47,33 @@ namespace TicTacToe
             turn.Text = game.CurrentPlayer;
         }
 
+        private void Button_Click(object sender, EventArgs e)
+        {
+            Button btn = (Button)sender;
+            btn.Text = game.CurrentPlayer;
+            btn.Enabled = false;
+            turn.Text = (game.CurrentPlayer==game.Player1Symbol) ? game.Player2Symbol : game.Player1Symbol;
+
+            if (game.CheckWinner(buttons))
+            {
+                reset.Enabled=false;
+                winningTime.Interval = 250;
+                winningTime.Start();
+                turn.Text = "";
+                buttons.ForEach(button => button.Enabled=false);
+                return;
+            }
+            if (game.IsDraw(buttons))
+            {
+                game.DrawsScore++;
+                drw_scor.Text = game.DrawsScore.ToString();
+                MessageBox.Show("\U0001F91D It's a Draw!", "Game Over!");
+                Rply.Visible = true;
+            }
+
+            game.SwitchTurn();
+        }
+
         private void Retry()
         {
             X.Checked = false;
@@ -84,6 +111,7 @@ namespace TicTacToe
                 ply1_scor.Text="0";
                 ply2_scor.Text="0";
                 drw_scor.Text="0";
+                game.ResetGame();
             }
         }
         private void winningTime_Tick(object sender, EventArgs e)
@@ -115,33 +143,6 @@ namespace TicTacToe
                 Rply.Visible = true;
                 reset.Enabled=true;
             }
-        }
-
-        private void Button_Click(object sender, EventArgs e)
-        {
-            Button btn = (Button)sender;
-            btn.Text = game.CurrentPlayer;
-            btn.Enabled = false;
-            turn.Text = (game.CurrentPlayer==game.Player1Symbol) ? game.Player2Symbol : game.Player1Symbol;
-
-            if (game.CheckWinner(buttons))
-            {
-                reset.Enabled=false;
-                winningTime.Interval = 250;
-                winningTime.Start();
-                turn.Text = "";
-                buttons.ForEach(button => button.Enabled=false);
-                return;
-            }
-            if (game.IsDraw(buttons))
-            {
-                game.DrawsScore++;
-                drw_scor.Text = game.DrawsScore.ToString();
-                MessageBox.Show("\U0001F91D It's a Draw!", "Game Over!");
-                Rply.Visible = true;
-            }
-
-            game.SwitchTurn();
         }
     }
 }

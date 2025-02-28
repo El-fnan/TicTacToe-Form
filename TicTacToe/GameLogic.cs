@@ -9,17 +9,17 @@ namespace TicTacToe
 {
     internal class GameLogic
     {
-        public string Player1Symbol { get; private set; } = "";
-        public string Player2Symbol { get; private set; } = "";
-        public string CurrentPlayer { get; private set; } = "";
-        public string Winner { get; private set; } = "";
-        public string Loser { get; private set; } = "";
+        public string Player1Symbol { get; private set; }
+        public string Player2Symbol { get; private set; }
+        public string CurrentPlayer { get; private set; }
+        public string Winner { get; private set; }
+        public string Loser { get; private set; }
 
-        public int Player1Score { get; private set; } = 0;
-        public int Player2Score { get; private set; } = 0;
-        public int DrawsScore { get; set; } = 0;
+        public int Player1Score { get; private set; }
+        public int Player2Score { get; private set; }
+        public int DrawsScore { get; set; }
 
-        public List<Button> WinningButtons { get; private set; } = new List<Button>();
+        public List<Button> WinningButtons { get; private set; }
 
         private int[,] winPatterns = new int[,]
         {
@@ -27,6 +27,21 @@ namespace TicTacToe
             {0, 3, 6}, {1, 4, 7}, {2, 5, 8}, // Columns
             {0, 4, 8}, {2, 4, 6}            // Diagonals
         };
+
+        public GameLogic()
+        {
+            Player1Symbol = "";
+            Player2Symbol = "";
+            CurrentPlayer = "";
+            Winner = "";
+            Loser = "";
+
+            Player1Score = 0;
+            Player2Score = 0;
+            DrawsScore = 0;
+
+            WinningButtons = new List<Button>();
+        }
 
         public void SetPlayers(string player1, string player2)
         {
